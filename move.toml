@@ -1,0 +1,14 @@
+[package]
+name="game"
+version="1.0.0"
+authors=[]
+
+[addresses]
+scavenger_addr='0x634fc75ff24af167bdd722be3e87067082d1d57c296896f5f29e8f7b7a4ce110'
+
+[dev-addresses]
+[dependencies.AptosFramework]
+git="https://github.com/aptos-labs/aptos-core.git"
+rev="mainnet"
+subdir="aptos-move/framework/aptos-framework"
+[dev-dependencies]
